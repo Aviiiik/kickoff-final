@@ -48,7 +48,7 @@ function Navbar() {
         <h1><Link to="/">Donna</Link></h1>
       </div>
       <div className='right-box'>
-        <li id="aboutus"><Link to="/aboutus">About Us</Link></li>
+       
 
         {!user ? (
           <li id="login"><Link to="/login">Login</Link></li> // Show Login link if no user is logged in

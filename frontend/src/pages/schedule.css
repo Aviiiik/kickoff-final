@@ -1,0 +1,123 @@
+/* General Page Styling */
+.schedule-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #af4c98;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Event List Styling */
+  .event-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .event-card {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card .MuiCardContent-root {
+    padding: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .event-card .MuiTypography-h6 {
+    color: #333;
+  }
+  
+  .event-card .MuiTypography-body1 {
+    color: #555;
+  }
+  
+  .event-card .MuiCardActions-root {
+    justify-content: flex-end;
+  }
+  
+  /* Calendar View Styling */
+  .calendar-view {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .rbc-calendar {
+    background-color: #fff;
+  }
+  
+  .rbc-toolbar {
+    background-color: #af4c99;
+    color: white;
+    padding: 10px;
+  }
+  
+  .rbc-toolbar button {
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .rbc-toolbar button:hover {
+    background-color: #45a049;
+  }
+  
+  .rbc-event {
+    background-color: #af4c99;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+  
+  /* Modal Styling */
+  .modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .schedule-container {
+      padding: 10px;
+    }
+  
+    .event-card {
+      max-width: 100%;
+    }
+  
+    .calendar-view {
+      margin-top: 10px;
+    }
+  
+    .modal-box {
+      width: 90%;
+    }
+  }
+  

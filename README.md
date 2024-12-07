@@ -20,8 +20,12 @@ Authentication is done with firebase
 
 Screenshots:
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/369785be-b75d-4047-9a7f-f35842e26994">
+
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/bff0df89-bc7a-4ff7-a6a7-2ae97b5bc50c">
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/702e3a63-8794-4e8a-9ad2-5d34b3c2f7ec">
+
+<img width="939" alt="image" src="https://github.com/user-attachments/assets/6696af46-aefd-4463-b9ad-8120cfa7e9e7">
+
+
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/9087d0b1-9ce4-42c1-8bfb-8b1062fc444d">
 
 
